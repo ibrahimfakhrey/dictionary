@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> welcome admin</h1>
+{% for i in data %}
+<h4>{{i}}   :    {{data[i]}} <a href="/change_role/{{i}}/{{data[i]}}"> change his role </a></h4>
+
+{% endfor %}
+</body>
+</html>
